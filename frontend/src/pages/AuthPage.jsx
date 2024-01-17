@@ -1,6 +1,6 @@
 import React from 'react'
-import SignUpForm from '../components/SignUpForm.jsx'
 import LogInForm from '../components/LogInForm.jsx'
+import SignUpForm from '../components/SignupForm.jsx'
 
 function AuthPage(props) {
   return (
@@ -8,7 +8,6 @@ function AuthPage(props) {
     <h1>AuthPage</h1>
     <SignUpForm setUser={props.setUser}/>
     <LogInForm setUser={props.setUser} />
-    <SignUpForm setUser={props.setUser} />
     </>
   )
 }

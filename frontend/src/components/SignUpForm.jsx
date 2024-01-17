@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 // import the SignUp method 
 import { signUp } from '../utilities/users-services';
 
-import './signupform.css'
-
 export class SignUpForm extends Component {
     state = {
         name:'',
